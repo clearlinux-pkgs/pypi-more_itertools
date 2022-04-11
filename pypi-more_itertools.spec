@@ -4,7 +4,7 @@
 #
 Name     : pypi-more_itertools
 Version  : 8.12.0
-Release  : 54
+Release  : 55
 URL      : https://files.pythonhosted.org/packages/dc/b5/c216ffeace7b89b7387fe08e1b39a07c6da38ea82c60e2e630dd5883813b/more-itertools-8.12.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/dc/b5/c216ffeace7b89b7387fe08e1b39a07c6da38ea82c60e2e630dd5883813b/more-itertools-8.12.0.tar.gz
 Summary  : More routines for operating on iterables, beyond itertools
@@ -14,14 +14,11 @@ Requires: pypi-more_itertools-license = %{version}-%{release}
 Requires: pypi-more_itertools-python = %{version}-%{release}
 Requires: pypi-more_itertools-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: more-itertools
-Provides: more-itertools-python
-Provides: more-itertools-python3
-BuildRequires : pypi(pluggy)
-BuildRequires : py-python
-BuildRequires : pytest
-BuildRequires : tox
-BuildRequires : pypi(virtualenv)
+BuildRequires : pypi(py)
+BuildRequires : pypi-pluggy
+BuildRequires : pypi-pytest
+BuildRequires : pypi-tox
+BuildRequires : pypi-virtualenv
 
 %description
 ==============
@@ -66,7 +63,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641456076
+export SOURCE_DATE_EPOCH=1649697164
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
