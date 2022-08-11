@@ -4,7 +4,7 @@
 #
 Name     : pypi-more_itertools
 Version  : 8.14.0
-Release  : 60
+Release  : 61
 URL      : https://files.pythonhosted.org/packages/c7/0c/fad24ca2c9283abc45a32b3bfc2a247376795683449f595ff1280c171396/more-itertools-8.14.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c7/0c/fad24ca2c9283abc45a32b3bfc2a247376795683449f595ff1280c171396/more-itertools-8.14.0.tar.gz
 Summary  : More routines for operating on iterables, beyond itertools
