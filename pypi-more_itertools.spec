@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-more_itertools
-Version  : 10.0.0
-Release  : 70
-URL      : https://files.pythonhosted.org/packages/b7/56/7daf104a9cb6af39c00127aee6904b01040dbb12cf1ceedd6a087c097055/more-itertools-10.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/b7/56/7daf104a9cb6af39c00127aee6904b01040dbb12cf1ceedd6a087c097055/more-itertools-10.0.0.tar.gz
+Version  : 10.1.0
+Release  : 71
+URL      : https://files.pythonhosted.org/packages/2d/73/3557e45746fcaded71125c0a1c0f87616e8258c78391f0c365bf97bbfc99/more-itertools-10.1.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/2d/73/3557e45746fcaded71125c0a1c0f87616e8258c78391f0c365bf97bbfc99/more-itertools-10.1.0.tar.gz
 Summary  : More routines for operating on iterables, beyond itertools
 Group    : Development/Tools
 License  : MIT
@@ -60,10 +60,10 @@ python3 components for the pypi-more_itertools package.
 
 
 %prep
-%setup -q -n more-itertools-10.0.0
-cd %{_builddir}/more-itertools-10.0.0
+%setup -q -n more-itertools-10.1.0
+cd %{_builddir}/more-itertools-10.1.0
 pushd ..
-cp -a more-itertools-10.0.0 buildavx2
+cp -a more-itertools-10.1.0 buildavx2
 popd
 
 %build
@@ -71,7 +71,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1690233119
+export SOURCE_DATE_EPOCH=1691176295
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
