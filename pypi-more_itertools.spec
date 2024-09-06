@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-more_itertools
-Version  : 10.4.0
-Release  : 76
-URL      : https://files.pythonhosted.org/packages/92/0d/ad6a82320cb8eba710fd0dceb0f678d5a1b58d67d03ae5be14874baa39e0/more-itertools-10.4.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/92/0d/ad6a82320cb8eba710fd0dceb0f678d5a1b58d67d03ae5be14874baa39e0/more-itertools-10.4.0.tar.gz
+Version  : 10.5.0
+Release  : 77
+URL      : https://files.pythonhosted.org/packages/51/78/65922308c4248e0eb08ebcbe67c95d48615cc6f27854b6f2e57143e9178f/more-itertools-10.5.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/51/78/65922308c4248e0eb08ebcbe67c95d48615cc6f27854b6f2e57143e9178f/more-itertools-10.5.0.tar.gz
 Summary  : More routines for operating on iterables, beyond itertools
 Group    : Development/Tools
 License  : MIT
@@ -62,13 +62,13 @@ python3 components for the pypi-more_itertools package.
 
 
 %prep
-%setup -q -n more-itertools-10.4.0
-cd %{_builddir}/more-itertools-10.4.0
+%setup -q -n more-itertools-10.5.0
+cd %{_builddir}/more-itertools-10.5.0
 pushd ..
-cp -a more-itertools-10.4.0 buildavx2
+cp -a more-itertools-10.5.0 buildavx2
 popd
 pushd ..
-cp -a more-itertools-10.4.0 buildapx
+cp -a more-itertools-10.5.0 buildapx
 popd
 
 %build
@@ -76,7 +76,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1723056734
+export SOURCE_DATE_EPOCH=1725632548
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
