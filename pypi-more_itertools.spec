@@ -7,7 +7,7 @@
 #
 Name     : pypi-more_itertools
 Version  : 10.6.0
-Release  : 79
+Release  : 80
 URL      : https://files.pythonhosted.org/packages/88/3b/7fa1fe835e2e93fd6d7b52b2f95ae810cf5ba133e1845f726f5a992d62c2/more-itertools-10.6.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/88/3b/7fa1fe835e2e93fd6d7b52b2f95ae810cf5ba133e1845f726f5a992d62c2/more-itertools-10.6.0.tar.gz
 Summary  : More routines for operating on iterables, beyond itertools
